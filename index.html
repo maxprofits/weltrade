@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 CONFÉRENCE GRATUITE : Réservation et Jeu Concours !</title>
+    
+    <!-- Pixel Facebook -->
+    <script>
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '3285724361475652');
+      fbq('track', 'PageView');
+    </script>
+    <noscript>
+      <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=3285724361475652&ev=PageView&noscript=1"
+      />
+    </noscript>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+        
+        :root {
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --secondary: #10b981;
+            --accent: #f59e0b;
+            --text: #1f2937;
+            --background: #f3f4f6;
+            --white: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: var(--white);
+            padding: 40px 20px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('/api/placeholder/800/400') center/cover;
+            opacity: 0.1;
+            z-index: 0;
+        }
+
+        header > * {
+            position: relative;
+            z-index: 1;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 40px;
+            background: var(--white);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .badge-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+
+        .free-badge {
+            background-color: var(--secondary);
+            color: var(--white);
+            padding: 12px 25px;
+            font-weight: bold;
+            border-radius: 30px;
+            transform: rotate(-2deg);
+            animation: pulse 2s infinite;
+        }
+
+        .prize-badge {
+            background-color: var(--accent);
+            color: var(--white);
+            padding: 12px 25px;
+            font-weight: bold;
+            border-radius: 30px;
+            transform: rotate(2deg);
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1) rotate(-2deg); }
+            50% { transform: scale(1.05) rotate(-2deg); }
+            100% { transform: scale(1) rotate(-2deg); }
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: var(--white);
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            color: var(--primary);
+            margin: 30px 0 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid var(--primary);
+            display: inline-block;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 15px 0;
+            background: var(--primary);
+            color: var(--white);
+            text-decoration: none;
+            border-radius: 50px;
+            text-align: center;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .registration-btn {
+            background: var(--secondary);
+        }
+
+        .contest-btn {
+            background: var(--accent);
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .highlight {
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(79, 70, 229, 0.1));
+            border-left: 4px solid var(--primary);
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 10px;
+        }
+
+        ul, ol {
+            padding-left: 20px;
+            margin: 15px 0;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: var(--text);
+            color: var(--white);
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+                margin: 20px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .badge-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🚀 MASTERCLASS TRADING EXPLOSIVE !</h1>
+        <div class="badge-container">
+            <div class="free-badge">100% GRATUIT !</div>
+            <div class="prize-badge">3 000 $ DE PRIX À GAGNER !</div>
+        </div>
+        <p>Dimanche 22 Décembre 2024 - Krystal Palace, Douala</p>
+    </header>
+    
+    <div class="container">
+        <h2>🏆 ÉVÉNEMENT + JEU CONCOURS EXCEPTIONNEL</h2>
+        
+        <div class="highlight">
+            <strong>ÉTAPES À SUIVRE :</strong><br>
+            1. Réservez votre place gratuite<br>
+            2. Inscrivez-vous au jeu concours<br>
+            3. Maximisez vos chances de gagner !
+        </div>
+
+        <h2>🎲 JEU CONCOURS - 3 000 $ DE PRIX</h2>
+        <ul>
+            <li>🏅 Lots d'une valeur totale de 3 000 $</li>
+            <li>💰 Récompenses spéciales pour les participants</li>
+            <li>💳 Dépôt minimum de 10 $ requis</li>
+            <li>💸 Méthodes de paiement : Orange Money et MTN Mobile Money</li>
+        </ul>
+
+        <h2>📋 ÉTAPES DE PARTICIPATION</h2>
+        <ol>
+            <li>
+                <strong>Réservation :</strong><br>
+                <a href="https://urlz.fr/tjfh" target="_blank" class="btn registration-btn" onclick="fbq('track', 'Lead')">🎫 RÉSERVER MA PLACE GRATUITE</a>
+            </li>
+            <li>
+                <strong>Inscription au jeu concours :</strong><br>
+                <a href="https://gowt.net/ib61592" target="_blank" class="btn contest-btn" onclick="fbq('track', 'CompleteRegistration')">🏆 M'INSCRIRE AU JEU CONCOURS</a>
+            </li>
+            <li>Effectuez un dépôt minimum de 10 $</li>
+            <li>Préparez-vous à gagner des prix exceptionnels !</li>
+        </ol>
+
+        <div class="highlight">
+            <strong>OPPORTUNITÉ UNIQUE :</strong> En créant votre compte et en effectuant un dépôt avant l'événement, vous maximisez vos chances de gagner et d'enrichir votre expérience de trading !
+        </div>
+
+        <h2>🤔 POURQUOI PARTICIPER ?</h2>
+        <ul>
+            <li>🎉 Éligibilité aux prix excitants</li>
+            <li>🚀 Maximisation de votre expérience trading</li>
+            <li>💡 Découverte exclusive du monde du trading</li>
+            <li>🤝 Opportunités uniques de networking</li>
+        </ul>
+
+        <h2>📲 RESTEZ CONNECTÉ</h2>
+        <a class="btn" href="https://t.me/weltradeafrique" target="_blank">🔗 REJOINDRE LE GROUPE TELEGRAM 📣</a>
+
+        <div class="highlight">
+            <strong>AVERTISSEMENT :</strong> Le trading comporte des risques. Investissez avec prudence.
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2024 Weltrade - Votre Partenaire Financier</p>
+    </footer>
+</body>
+</html>
